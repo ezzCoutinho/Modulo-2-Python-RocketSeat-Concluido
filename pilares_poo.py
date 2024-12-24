@@ -56,5 +56,34 @@ print(f"\nSeu saldo é de: {conta.get_saldo()}")
 conta.sacar(2000)
 print(f"\nSeu saldo é de: {conta.get_saldo()}")
 
+# Abstração
+print("\nExemplo de abstração: ")
 
+from abc import ABC, abstractmethod
+
+class Veiculo(ABC):
+
+  @abstractmethod
+  def ligar(self):
+    pass
+
+  @abstractmethod
+  def desligar(self):
+    pass
+
+class Carro(Veiculo):
+  def __init__(self, nome):
+    self.nome = nome
+
+  def ligar(self):
+    print(f"O {self.nome}, está ligado.")
+    return 
   
+  def desligar(self):
+    print(f"O {self.nome}, está desligado.")
+    return
+  
+carro = Carro("Santana Volkswagen")
+
+carro.ligar()
+carro.desligar()
