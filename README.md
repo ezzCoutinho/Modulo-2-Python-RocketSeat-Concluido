@@ -1,6 +1,7 @@
 dia 24/12
 https://notion.so/Python-dia-26-12-168bc5c3824d80a5a79fe35448c7bdda
 Hoje aprendemos que; podemos passar o instanciamento de uma classe, nos atributo de uma outra.
+E decrementar atributos, sem quebrar a cabeça.
  
 
 dia 23/12
