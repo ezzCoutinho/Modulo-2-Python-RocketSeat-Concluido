@@ -24,3 +24,15 @@ Método;
 Instancias(OBJETOS kkk);
 Pontos negativos: complexidade.
 Pontos positivos: herança, polimorfismo, encapsulamento e abstração.
+
+dia 24/12
+https://notion.so/Python-dia-24-12-166bc5c3824d80f8af50cb346167d861
+Hoje vimos dnv sobre os 4 pilares da POO
+abstração; onde uma classe que advêm dela é obrigatória ter os métodos que nela(class abstract) tem.
+encapsulamento; onde os atributos construtores de uma classe( aqueles que são instanciais), podem ser privado <self.__nome>, ou publico <self.nome>.
+herança; onde uma classe pode herdar de outra, ou heranças múltiplas, onde uma classe herdar mais de 1 classe por vez; < class Morcego(Mamifero, Ave)>.
+polimorfismo; onde as subclasses provém métodos de uma superclasse, só que ambas usam os métodos diferentemente entre sí.
+Vimos também sobre decoradores, onde podemos aplicar alterações em uma função, método... Passando a função decoradora em cima do método desejado. Vimos também um módulos padrões do python. Temos decoradores comuns do python que são:
+classmethod; onde um método de uma classe não precisa ser instanciada, e não têm direito ao acesso dos atributos instancias(constructor), apenas acesso ao atributo da classe.
+staticmethod; onde um método de uma classe não precisa ser instanciado, não tem acesso tanto atributos do construtor, quanto os atributos da classe. Caso haja, uma ocorrência onde, precisamos colocar um atributoC em um método de superclasse, podemos concatenar.
+super, podemos deixar em métodos, que herdamos, caso não necessite de ajusta, assim vale também para os atributosC de uma superclasse

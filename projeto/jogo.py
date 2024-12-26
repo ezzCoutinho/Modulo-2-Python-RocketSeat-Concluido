@@ -45,7 +45,21 @@ class Inimigo(Personagem):
   def exibir_detalhes(self):
     return f"{super().exibir_detalhes()} \n Tipo: {self.__tipo} \n"
   
-heroi = Heroi("Herói", 100, 5, "Super Força")
-print(heroi.exibir_detalhes())
-inimigo = Inimigo("Morcego", 50, 3, "Voador")
-print(inimigo.exibir_detalhes())
+class Jogo:
+  """" classe orquestradora do jogo."""
+  def __init__(self):
+    self.heroi = Heroi("Herói", 100, 5, "Super Força")
+    self.inimigo = Inimigo("Morcego", 50, 3, "Voador")
+  
+  def iniciando_batalha(self):
+    """" Fazer a gestão da batalha em turnos """
+
+    while self.heroi.get_vida() > 0 and self.inimigo.get_vida():
+      print("\n Detalhes dos Personagens: ")
+      print(self.heroi.exibir_detalhes())
+      print(self.inimigo.exibir_detalhes())
+      input("Tecle Enter para iniciar a batalha...")
+      escolha = int(input("Escolha (1 - Ataque Normal, 2 Ataque Especial): "))
+
+jogo = Jogo()
+jogo.iniciando_batalha()
