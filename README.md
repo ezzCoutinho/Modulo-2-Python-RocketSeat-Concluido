@@ -1,3 +1,8 @@
+dia 24/12
+https://notion.so/Python-dia-26-12-168bc5c3824d80a5a79fe35448c7bdda
+Hoje aprendemos que; podemos passar o instanciamento de uma classe, nos atributo de uma outra.
+ 
+
 dia 23/12
 https://www.notion.so/Python-dia-23-12-165bc5c3824d80469283fb1bf18a52d4
 Hoje eu terminei o meu projeto de contatos, da rocketSeat, onde; 
